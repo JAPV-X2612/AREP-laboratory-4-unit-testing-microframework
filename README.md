@@ -155,13 +155,13 @@ java -jar target/unit-testing-microframework-1.0-SNAPSHOT.jar edu.eci.arep.contr
 
 ### Instance Configuration
 
-<img src="assets/images/01-ec2-instance-running.png" alt="EC2 Instance Running" width="70%">
+<img src="assets/images/01-ec2-instance-running.png" alt="EC2 Instance Running">
 
 *AWS EC2 instance `my-first-ec2` running on `us-east-1` with public IPv4 address `54.197.198.195`*
 
 ### Security Group — Inbound Rules
 
-<img src="assets/images/02-security-group-inbound-rules.png" alt="Security Group Inbound Rules" width="70%">
+<img src="assets/images/02-security-group-inbound-rules.png" alt="Security Group Inbound Rules">
 
 *Inbound rules configured with SSH (port `22`) and Custom TCP (port `35000`) open to the developer's IP*
 
@@ -219,7 +219,7 @@ Key startup output:
 
 ### `GET /index.html` — Static File Serving
 
-<img src="assets/images/08-browser-static-html.png" alt="Browser Static HTML" width="70%">
+<img src="assets/images/08-browser-static-html.png" alt="Browser Static HTML">
 
 *Static `index.html` served from the classpath under `/static/`, including the embedded navigation links and image*
 
